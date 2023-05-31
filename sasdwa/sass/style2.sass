@@ -1,0 +1,1876 @@
+*
+  padding: 0
+  margin: 0
+  font-family: "Open Sans", sans-serif
+
+body
+  background-color: #e2e6ec
+
+table
+  background-color: white
+
+.dropdown-menu a:active
+  background-color: rgb(50, 156, 70)
+
+#btn-back-to-top
+  position: fixed
+  bottom: 20px
+  right: 20px
+  background-color: rgb(50, 156, 70)
+  color: white
+  display: none
+
+p
+  font-size: 12px
+  float: right
+
+@media screen and (max-width: 991px)
+  .top-header
+    display: none
+
+@media screen and (min-width: 992px)
+  .top-header
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+.continue-shopping-button
+  display: inline-block
+  padding: 12px 32px
+  font-size: 16px
+  font-weight: bold
+  color: limegreen
+  background-color: rgba(255, 255, 255, 0.4)
+  border: none
+  border-radius: 30px
+  transition: all 0.3s ease
+
+.top-header
+  position: relative
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  background-color: #1c293e
+  height: 30px
+
+  .secondary-functions
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    gap: 10px
+    height: max-content
+    width: -moz-max-content
+    width: max-content
+    margin-left: 40px
+
+    a
+      text-decoration: none
+      color: rgb(50, 156, 70)
+      -webkit-transition: 0.4s ease-in-out
+      transition: 0.4s ease-in-out
+
+      &:hover
+        -webkit-filter: brightness(0.85)
+        filter: brightness(0.85)
+
+    span
+      font-size: 13px
+
+    .middle-div
+      width: 50px
+
+  .switch-language
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    position: absolute
+    right: 6%
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    justify-content: right
+    gap: 5px
+    width: -moz-max-content
+    width: max-content
+
+    .btn
+      border: none
+
+      .language-name
+        color: rgb(184, 184, 184)
+
+      i
+        margin-left: 5px
+        color: rgb(50, 156, 70)
+
+    .dropdown-menu
+      text-align: center
+
+      .dropdown-item:not(.last)
+        border-bottom: 1px solid #e1e1e1
+
+@media screen and (min-width: 992px)
+  .switch-language-in-mobile
+    display: none
+
+@media screen and (max-width: 991px)
+  .switch-language-in-mobile
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+.switch-language-in-mobile
+  margin: auto
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  gap: 5px
+  width: -moz-max-content
+  width: max-content
+
+  .btn
+    border: none
+
+    .language-name
+      color: rgb(184, 184, 184)
+      font-size: 18px
+
+    i
+      margin-left: 5px
+      color: rgb(50, 156, 70)
+      font-size: 18px
+
+    .dropdown-menu
+      text-align: center
+
+      .dropdown-item:not(.last)
+        border-bottom: 1px solid #e1e1e1
+
+nav
+  background-color: #2d3b51
+
+  .container-fluid
+    padding: 15px
+
+    .navbar-toggler
+      border-color: #ddd
+
+      i
+        color: #ddd
+
+    .nav-categories
+      border: 1px solid white
+      border-radius: 20px
+      margin-top: 20px
+      width: 100%
+
+      .btn:hover, .focus-color
+        background-color: rgb(50, 156, 70)
+
+      ul
+        list-style-type: none
+        padding: 0
+        margin: 0
+        list-style-type: none
+        margin: 0
+        padding: 0
+        border-bottom-right-radius: 10px
+        border-bottom-left-radius: 10px
+
+        .orangle-font a
+          color: #ee5b44
+          font-weight: bold
+
+        .Xmas-sellout a
+          background-color: #ee5b44 !important
+          color: white
+          font-weight: bold
+
+        li
+          &:not(.border-bottom-none)
+            border-bottom: 1px solid lightgray
+
+          a
+            position: relative
+            display: -webkit-box
+            display: -ms-flexbox
+            display: flex
+            -webkit-box-align: center
+            -ms-flex-align: center
+            align-items: center
+            gap: 10px
+            width: 100%
+            text-align: left
+            text-decoration: none
+            color: #333
+            line-height: 24px
+            font-weight: 500
+            font-size: 15px
+            padding: 7px 13px
+            -webkit-transition: 0.5s ease-in-out
+            transition: 0.5s ease-in-out
+
+            &:hover:is(.border-bottom-hover)
+              border-bottom-right-radius: 10px
+              border-bottom-left-radius: 10px
+
+          .main-links
+            color: white
+
+          .collapse .card .collapse-container
+            font-size: 10px
+
+            .under-categories p a:hover
+              color: rgb(50, 156, 70)
+
+@media screen and (max-width: 991px)
+  nav .container-fluid
+    img
+      margin: auto
+      width: 50%
+      max-width: 350px
+
+    #navbarSupportedContent
+      position: relative
+
+      .form-inputs
+        input[type=text], i
+          display: none
+
+@media screen and (min-width: 992px)
+  nav .container-fluid
+    img
+      max-width: 270px
+      margin-left: 3%
+
+    #navbarSupportedContent
+      position: absolute
+      right: 2.5%
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      justify-content: right
+      gap: 3%
+      width: 75%
+
+@media screen and (min-width: 992px) and (max-width: 1245px)
+  nav .container-fluid #navbarSupportedContent .form-inputs
+    margin-right: 50px
+
+@media screen and (min-width: 992px)
+  nav .container-fluid #navbarSupportedContent .form-inputs
+    position: relative
+
+@media screen and (min-width: 992px)
+  nav .container-fluid #navbarSupportedContent .form-inputs .form-control
+    height: 45px
+    width: 370px
+    border-radius: 20px
+    border: none
+    padding-left: 40px
+    background-color: #ddd
+
+@media screen and (min-width: 992px)
+  nav .container-fluid #navbarSupportedContent .form-inputs .form-control:focus
+    -webkit-box-shadow: none
+    box-shadow: none
+
+@media screen and (min-width: 992px)
+  nav .container-fluid #navbarSupportedContent .form-inputs i
+    position: absolute
+    left: 10px
+    top: 12px
+    font-size: 20px
+
+@media screen and (min-width: 992px) and (max-width: 991px)
+  nav .container-fluid .nav-categories
+    display: inherit
+
+@media screen and (min-width: 992px) and (min-width: 992px)
+  nav .container-fluid .nav-categories
+    display: none
+
+@media screen and (min-width: 992px)
+  .nav-button
+    margin-right: 30px
+    float: right
+
+@media screen and (max-width: 991px)
+  .nav-button
+    margin: 10px auto
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+
+.nav-button
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  width: -moz-fit-content
+  width: fit-content
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  gap: 15px
+
+  .user-button-container
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    gap: 10px
+
+    .data-for-buttons
+      color: #ddd
+      font-size: 14px
+
+  button
+    border: 1px solid #ddd
+    border-radius: 70px
+    text-align: center
+
+    span
+      background-color: rgb(50, 156, 70)
+
+  i
+    color: rgb(50, 156, 70)
+    font-size: 20px
+
+@media screen and (min-width: 1246px)
+  .nav-button .user-button-container .data-for-buttons
+    display: -ms-grid
+    display: grid
+    font-weight: bold
+    width: 60px
+
+@media screen and (max-width: 1245px)
+  .nav-button .user-button-container .data-for-buttons
+    display: none
+
+@media screen and (max-width: 991px)
+  .nav-button .user-button-container .data-for-buttons
+    display: -ms-grid
+    display: grid
+
+@media screen and (min-width: 1525px)
+  .phone-number
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    width: 370px
+
+@media screen and (max-width: 1525px)
+  .phone-number
+    display: none
+
+@media screen and (max-width: 991px)
+  .phone-number
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    margin: 20px auto 20px
+    max-width: 370px
+
+.phone-number
+  position: relative
+  gap: 15px
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  padding: 5px 10px
+  border: 2px solid #4D5E79
+  border-radius: 30px
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+
+  .phone-icon
+    position: absolute
+    left: 15px
+    color: rgb(50, 156, 70)
+    font-size: 25px
+
+  .number a
+    color: rgb(50, 156, 70)
+    font-size: 25px
+    text-decoration: none
+
+  .work-days
+    position: absolute
+    right: 15px
+    display: -ms-grid
+    display: grid
+    font-size: 14px
+    font-weight: bold
+    color: rgb(160, 181, 213)
+
+@media screen and (max-width: 991px)
+  #searchbar
+    .form-control, i
+      display: inherit
+
+@media screen and (min-width: 992px)
+  #searchbar
+    .form-control, i
+      display: none
+
+#searchbar
+  position: relative
+
+img
+
+#searchbar
+  .form-control
+    height: 45px
+
+    &:focus
+      -webkit-box-shadow: none
+      box-shadow: none
+      border: 1px solid #000
+
+  i
+    position: absolute
+    right: 10px
+    top: 15px
+
+.contentTitles
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  background-color: #2d3b51
+  color: white
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  font-family: Impact, sans-serif
+  font-size: 25px
+  padding-top: 12px
+  padding-left: 10px
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+
+.infoContainers
+  margin-right: 50px
+  margin-left: 50px
+  margin-top: 80px
+  border: 1px solid #ddd
+  background-color: white
+  border-radius: 10px
+
+  .content-about
+    display: -ms-grid
+    display: grid
+    position: relative
+
+    img
+      width: 100%
+      border-bottom-right-radius: 10px
+      border-bottom-left-radius: 10px
+
+  .description
+    margin-right: 20px
+
+    p, h2
+      margin-top: 14px
+      padding-left: 15px
+      padding-right: 15px
+
+    ul
+      max-width: 920px
+
+    li
+      margin-bottom: 10px
+
+    .pointed-list li
+      color: rgb(50, 156, 70)
+
+      span
+        color: black
+
+.main-content
+  max-width: 90%
+  margin: 45px auto auto
+
+  > h2
+    text-align: center
+
+  .leadersPictures
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    gap: 10px
+    width: -moz-fit-content
+    width: fit-content
+    margin: auto
+
+    .infoAboutPerson
+      position: relative
+
+      .info-name-role
+        position: absolute
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        -webkit-box-align: center
+        -ms-flex-align: center
+        align-items: center
+        bottom: 10px
+        width: 100%
+        padding: 15px 5px
+        font-size: 15px
+        background-color: rgba(45, 59, 81, 0.9)
+        color: white
+        border-bottom-left-radius: 10px
+        border-bottom-right-radius: 10px
+
+        a
+          color: white
+          -webkit-transition: 0.3s ease-in-out
+          transition: 0.3s ease-in-out
+
+          &:hover
+            color: rgb(50, 156, 70)
+
+        .name-role
+          display: -ms-grid
+          display: grid
+          width: 170px
+
+          .personName
+            font-weight: bolder
+
+          .personRole
+            font-size: 11px
+
+    img
+      border-radius: 10px
+      margin: 10px auto 10px
+
+@media screen and (max-width: 1270px)
+  .infoPanel
+    display: -ms-grid
+    display: grid
+
+@media screen and (min-width: 1271px)
+  .infoPanel
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+.infoPanel
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  gap: 20px
+  margin-top: 30px
+  margin-bottom: 40px
+
+  .information
+    background-color: #f2ffe6
+    height: 250px
+    padding: 20px
+
+    #email > a
+      color: #53c869
+
+  iframe
+    width: 100%
+    height: 250px
+
+.column
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+
+  .left-column
+    margin-left: 30px
+
+  .categories
+    background-color: #6bb42a
+    height: 35px
+    width: 230px
+
+    &:hover .list-of-categories
+      display: inherit
+
+    .categories-dom
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      gap: 8px
+      float: none
+      line-height: 24px
+      font-weight: 500
+      font-size: 18px
+      color: #ffffff
+      letter-spacing: 0.2px
+      margin: 0
+      padding: 9px 14px
+      width: 100%
+      height: 100%
+
+    .list-of-categories
+      display: none
+      background-color: white
+      list-style-type: none
+      margin: 0
+      padding: 0
+      border-bottom-right-radius: 10px
+      border-bottom-left-radius: 10px
+
+      .orangle-font a
+        color: #ee5b44
+        font-weight: bold
+
+      .Xmas-sellout a
+        background-color: #ee5b44 !important
+        color: white
+        font-weight: bold
+
+      li
+        &:not(.border-bottom-none)
+          border-bottom: 1px solid lightgray
+
+        a
+          position: relative
+          display: -webkit-box
+          display: -ms-flexbox
+          display: flex
+          -webkit-box-align: center
+          -ms-flex-align: center
+          align-items: center
+          gap: 10px
+          width: 100%
+          text-align: left
+          text-decoration: none
+          color: #333
+          line-height: 24px
+          font-weight: 500
+          font-size: 15px
+          padding: 7px 13px
+          -webkit-transition: 0.5s ease-in-out
+          transition: 0.5s ease-in-out
+
+          &:hover:is(.border-bottom-hover)
+            border-bottom-right-radius: 10px
+            border-bottom-left-radius: 10px
+
+        -webkit-transition: 0.5s ease-in-out
+        transition: 0.5s ease-in-out
+
+        &:hover
+          background-color: rgb(236, 255, 221)
+
+      .product-category
+        position: relative
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+
+        &:hover .underlist-product
+          display: inherit
+
+        .underlist-product
+          display: none
+          position: absolute
+          top: 0
+          left: 100%
+          width: -moz-max-content
+          width: max-content
+          max-width: 1020px
+          height: max-content
+          background-color: white
+          -webkit-box-shadow: 1px 1px 5px #777
+          box-shadow: 1px 1px 5px #777
+          border: 1px solid #ccc
+          -ms-flex-wrap: wrap
+          flex-wrap: wrap
+          z-index: 999
+
+          .top-line
+            width: 100%
+            height: 15px
+            background-color: rgb(236, 255, 221)
+            text-indent: -9999px
+
+          .category-container
+            display: -webkit-box
+            display: -ms-flexbox
+            display: flex
+            gap: 30px
+            -ms-flex-wrap: wrap
+            flex-wrap: wrap
+            max-width: max-content
+            padding: 10px 15px
+
+            .categories-in-categories
+              h4
+                max-width: 200px
+
+              p
+                margin: 0
+                padding: 0
+
+          h4 a
+            font-weight: bold
+
+  .right-column
+    margin: 30px
+    gap: 30px
+    height: fit-content
+    text-align: center
+
+    h5
+      font-weight: 700
+
+@media screen and (max-width: 991px)
+  .column .left-column
+    display: none
+
+@media screen and (min-width: 992px)
+  .column .left-column
+    display: inherit
+
+@media screen and (max-width: 991px)
+  .column .right-column
+    display: none
+
+@media screen and (min-width: 992px)
+  .column .right-column
+    display: -ms-grid
+    display: grid
+
+*
+  box-sizing: border-box
+
+body
+  font-family: Arial, sans-serif
+  margin: 0
+
+header
+  background-color: #333
+  color: white
+  padding: 20px
+
+nav
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    display: flex
+    justify-content: space-between
+
+  li
+    margin: 0 10px
+
+  a
+    color: white
+    text-decoration: none
+
+main
+  max-width: 1000px
+  margin: 0 auto
+  padding: 20px
+
+section
+  margin-bottom: 40px
+  border-color: white
+  border-style: solid
+  border-width: 30px
+  width: 70%
+  position: relative
+  left: 726px
+  bottom: 945px
+
+  h2
+    margin-top: 0
+    font-style: normal
+    border-style: none
+
+table
+  width: 100%
+  border-collapse: collapse
+  border-color: white
+  border-style: solid
+  border-width: 30px
+
+.cart-items
+  background-color: #fff
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  padding: 20px
+  position: relative
+  right: 392px
+  top: 55px
+
+.item
+  display: flex
+  align-items: center
+  column-gap: 20px
+  margin-bottom: 20px
+  border-bottom: 1px solid green
+  border-bottom-length: 30px
+  padding: 10px
+
+.item2
+  display: flex
+  align-items: center
+  column-gap: 20px
+  margin-bottom: 20px
+  position: relative
+  left: 10px
+
+.item-image img
+  max-width: 100px
+  border-radius: 4px
+
+.item-details
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  flex-grow: 1
+
+  h2
+    font-size: 1.2rem
+    margin: 0
+    color: #333
+
+.item-price
+  font-size: 1.1rem
+  color: #666
+  margin: 5px 0
+
+.item-quantity, .quantity
+  display: flex
+  align-items: center
+  column-gap: 10px
+  margin-top: 10px
+  position: relative
+  bottom: 38px
+
+.item-quantity1
+  display: flex
+  align-items: center
+  column-gap: 10px
+  margin-top: 10px
+  position: relative
+  bottom: 38px
+  left: 195px
+
+.quantity-button
+  background-color: #fff
+  color: #333
+  border: 1px solid #ccc
+  padding: 5px 10px
+  border-radius: 4px
+  cursor: pointer
+  transition: background-color 0.3s ease
+
+  &:hover
+    background-color: #f2f2f2
+
+.image-container1
+  position: absolute
+  top: 150px
+  right: 593px
+
+.image-container2
+  position: absolute
+  top: 157px
+  right: 564px
+
+.image-container
+  position: absolute
+  top: 143px
+  left: 270px
+
+.tabs
+  display: flex
+  flex-direction: column
+  position: absolute
+  left: 80px
+  bottom: 465px
+
+.save-button
+  background-color: green
+  color: #fff
+  border: none
+  padding: 10px
+  position: relative
+  right: 815px
+  top: 225px
+  width: 9%
+  border-radius: 25px
+  cursor: pointer
+  font-size: 15px
+  margin-top: 10px
+
+  &:hover
+    background-color: darkgreen
+    cursor: pointer
+
+.field
+  display: block
+  margin-bottom: 10px
+  position: relative
+  left: 19%
+  top: 150px
+  width: 75%
+
+  input
+    width: 30%
+    height: 75%
+
+  label
+    display: block
+    margin-bottom: 1px
+
+.info-fields
+  display: flex
+  flex-wrap: wrap
+  gap: 20px
+
+.tab
+  margin-bottom: 0px
+  box-shadow: #2d3b51
+
+  &:hover label
+    background-color: #eaeaea
+
+  input[type="radio"]
+    display: none
+    width: 11%
+
+    &:checked + label
+      background-color: #fff
+      border-bottom: 1px solid #fff
+      color: midnightblue
+
+  label
+    display: block
+    padding: 5px
+    width: 112%
+    background-color: #f9f9f9
+    border: 1px solid #ccc
+    border-bottom: none
+    cursor: pointer
+    text-align: center
+
+.tab-content
+  display: none
+  padding: 10px
+  border: 1px solid #ccc
+  border-top: none
+
+.quantity-value
+  font-size: 1.1rem
+  color: #333
+
+.image-container3
+  position: relative
+  top: 58px
+
+.image-container4
+  position: relative
+  left: 30%
+  bottom: 90px
+
+.image-container5
+  position: relative
+  left: 60%
+  bottom: 237px
+
+.image-container7
+  position: relative
+  right: 60%
+  top: 61px
+
+.image-container6
+  position: relative
+  right: 6%
+  bottom: 28px
+
+.image-container9
+  position: relative
+  right: 57%
+  top: 58px
+
+.overlay
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  opacity: 0
+  transition: .5s ease
+  background-color: rgba(0, 0, 0, 0.5)
+
+.text
+  color: white
+  font-size: 20px
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  text-align: center
+
+.remove-button1
+  background-color: transparent
+  border: none
+  font-size: 20px
+  color: green
+  cursor: pointer
+  transition: color 0.2s ease
+  position: relative
+  left: 667px
+  width: 50px
+  bottom: 135px
+
+.magnifying-glass
+  position: fixed
+  top: 10px
+  right: 50px
+  z-index: 9999
+  color: white
+
+@media (max-width: 768px)
+/* styles for mobile devices
+
+@media (min-width: 769px) and (max-width: 1024px)
+/* styles for tablets
+
+@media (min-width: 1025px)
+/* styles for desktops
+
+.zoom-in, .zoom-out
+  display: inline-block
+  padding: 10px
+  font-size: 20px
+  font-weight: bold
+  cursor: pointer
+
+.zoom-in:hover, .zoom-out:hover
+  background-color: #ccc
+
+.remove-button
+  background-color: transparent
+  border: none
+  width: 50px
+  font-size: 20px
+  color: green
+  cursor: pointer
+  transition: color 0.2s ease
+  position: relative
+  left: 480px
+  bottom: 100px
+
+  &:hover
+    color: #c62828
+
+.remove-button1:hover
+  color: #c62828
+
+.cart-summary
+  background-color: #fff
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  padding: 20px
+
+  h2
+    margin: 0 0 10px 0
+    font-size: 1.5rem
+    color: #333
+
+h3
+  position: absolute
+  top: 220px
+  left: 80px
+  font-size: 35px
+  color: steelblue
+
+h4
+  position: absolute
+  top: 219px
+  left: 355px
+  font-size: 20px
+  color: white
+  background-color: darkblue
+
+  /* Change this value to your desired background color
+  padding: 18px
+  border-radius: 8px
+  width: 1033px
+
+  /* Set the desired width as a percentage of the container
+  margin: 0 auto
+
+.login-container
+  padding: 150px
+
+.login-form
+  max-width: 300px
+  margin: 0 auto
+  background-size: 520px 120px
+
+  h2
+    text-align: center
+    margin-bottom: 20px
+
+.form-group
+  margin-bottom: 15px
+  color: green
+
+  label
+    display: block
+    margin-bottom: 5px
+    position: relative
+    right: 20px
+
+  input
+    width: 150%
+    padding: 12px
+    position: relative
+    right: 410px
+    border: 1px solid #ccc
+    border-radius: 5px
+    font-size: 14px
+
+    a
+      color: green
+
+.forgot-password
+  text-align: right
+  margin-bottom: 10px
+  font-size: 12px
+  position: relative
+  right: 250px
+
+  a
+    color: green
+    text-decoration: none
+
+.login-button
+  background-color: green
+  font-size: 14px
+  color: #fff
+  border: none
+  padding: 15px
+  position: relative
+  right: 140px
+  top: 15px
+  border-radius: 24px
+  width: 58%
+  cursor: pointer
+
+.signup-link
+  text-align: center
+  font-size: 12px
+  position: relative
+  right: 150px
+  top: 18px
+  margin-top: 20px
+
+  a
+    color: green
+    text-decoration: none
+
+.social-login
+  text-align: center
+  margin-top: 20px
+
+  h3
+    margin-bottom: 10px
+
+.dropdown select
+  width: 200px
+  padding: 10px
+  font-size: 16px
+  border: 1px solid #ccc
+  border-radius: 5px
+  background-color: #fff
+
+  &:focus
+    outline: none
+    border-color: #007bff
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5)
+
+.social-icons
+  display: flex
+  justify-content: center
+  gap: 10px
+  position: relative
+  left: 730px
+  bottom: 260px
+  background-color: palegreen
+  padding: 65px
+  width: 30%
+  height: 250px
+
+.social-icons1
+  display: flex
+  justify-content: center
+  gap: 10px
+  padding: 65px
+  width: 80%
+  height: 190px
+
+.social-icons a
+  display: block
+
+  /* or inline-block
+  margin-bottom: 10px
+  justify-content: center
+  align-items: center
+  width: 220px
+  height: 50px
+  background-color: #6CB45C
+  color: #fff
+  border-radius: 0%
+  text-decoration: none
+
+  &:hover
+    background-color: #51974B
+
+.social-icons1 a:hover
+  background-color: #51974B
+
+a
+  &.facebook-icon
+    background-color: darkblue
+    position: relative
+    bottom: 35px
+    left: 105px
+    width: 2335px
+
+  &.paypal-icon
+    background-color: whitesmoke
+    color: darkblue
+    font-size: 20px
+    width: 2235px
+    position: relative
+    top: 95px
+    right: 137px
+
+  &.facebook-icon1
+    background-color: darkblue
+    position: relative
+    bottom: 65px
+    left: 87px
+
+  &.google-icon1
+    background-color: dodgerblue
+    position: relative
+    right: 10px
+
+  &.paypal-icon1
+    background-color: whitesmoke
+    color: darkblue
+    position: relative
+    top: 70px
+    right: 100px
+
+.social-icons a i
+  font-size: 24px
+
+/* Adjust the size as needed
+
+a.google-icon
+  background-color: dodgerblue
+  position: relative
+  top: 25px
+  width: 2365px
+  right: 17px
+
+.cart-summary
+  table
+    width: 100%
+    margin-bottom: 10px
+
+  td
+    padding: 10px 0
+    color: #666
+    font-size: 1.1rem
+    border-bottom: 1px solid #f2f2f2
+
+    &:first-child
+      font-weight: bold
+      color: #333
+
+  .summary-value
+    font-weight: bold
+    color: #333
+
+table
+  th, td
+    text-align: left
+    padding: 8px
+    border-bottom: 1px solid
+    border-color: white
+    float: none
+    margin-right: 10px
+
+p3
+  position: relative
+  left: 610px
+  font-size: 20px
+  bottom: 135px
+  font-weight: bold
+  color: midnightblue
+  font-family: Arial
+
+p32
+  position: relative
+  left: 340px
+  font-size: 20px
+  bottom: 69px
+  font-weight: bold
+  color: midnightblue
+  font-family: Arial
+
+table th
+  font-size: 20px
+  background-color: royalblue
+  margin-right: 20px
+
+.cart-buttons
+  margin-top: 20px
+
+.make-purchase-button
+  display: inline-block
+  padding: 12px 32px
+  font-size: 16px
+  font-weight: bold
+  color: white
+  background-color: limegreen
+  border: none
+  border-radius: 30px
+  transition: all 0.3s ease
+  box-shadow: darkgreen
+
+  &:hover
+    background-color: darkgreen
+
+.continue-shopping-button:hover
+  background-color: darkgreen
+
+.column .categories
+  background-color: #6bb42a
+  height: 35px
+  width: 230px
+  position: absolute
+  top: 168px
+  left: 80px
+
+nav
+  padding: 10px
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+
+li
+  display: inline-block
+
+a
+  color: black
+  text-decoration: none
+  padding: 10px
+
+.login-button:hover
+  background-color: darkgreen
+
+.dash
+  display: inline-block
+  width: 30px
+  height: 2px
+  background-color: #ccc
+  margin-right: 10px
+  vertical-align: middle
+
+.description
+  position: absolute
+  left: 120px
+  transform: translateX(-50%)
+  width: 200px
+  padding: 10px
+  background-color: #7eff7e
+  color: #000
+  font-size: 14px
+  text-align: center
+  box-shadow: 0px 0px 8px 2px #00c200
+  border-radius: 5px
+
+.description1
+  position: absolute
+  left: 167px
+  transform: translateX(-50%)
+  width: 330px
+  padding: 9px
+  background-color: #7eff7e
+  color: #000
+  font-size: 14px
+  text-align: center
+  box-shadow: 0px 0px 8px 2px #00c200
+  border-radius: 5px
+  flex: 1
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+.product-description
+  flex: 1
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+.column .categories
+  &:hover .list-of-categories
+    display: inherit
+
+  .categories-dom
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    gap: 8px
+    float: none
+    line-height: 24px
+    font-weight: 500
+    font-size: 18px
+    color: #ffffff
+    letter-spacing: 0.2px
+    margin: 0
+    padding: 9px 14px
+    width: 100%
+    height: 100%
+
+.item-price
+  color: green
+  position: relative
+  top: 15px
+
+.breadcrumb
+  position: absolute
+  top: 180px
+  left: 350px
+  font-size: 12px
+
+.column .categories .list-of-categories
+  display: none
+  background-color: white
+  list-style-type: none
+  margin: 0
+  padding: 0
+  border-bottom-right-radius: 10px
+  border-bottom-left-radius: 10px
+
+.shopping_cart, .personal_info
+  color: green
+
+.column .categories .list-of-categories
+  .orangle-font a
+    color: #ee5b44
+    font-weight: bold
+
+  .Xmas-sellout a
+    background-color: #ee5b44 !important
+    color: white
+    font-weight: bold
+
+  li
+    &:not(.border-bottom-none)
+      border-bottom: 1px solid lightgray
+
+    a
+      position: relative
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      gap: 10px
+      width: 100%
+      text-align: left
+      text-decoration: none
+      color: #333
+      line-height: 24px
+      font-weight: 500
+      font-size: 15px
+      padding: 7px 13px
+      -webkit-transition: 0.5s ease-in-out
+      transition: 0.5s ease-in-out
+
+      &:hover:is(.border-bottom-hover)
+        border-bottom-right-radius: 10px
+        border-bottom-left-radius: 10px
+
+    -webkit-transition: 0.5s ease-in-out
+    transition: 0.5s ease-in-out
+
+    &:hover
+      background-color: rgb(236, 255, 221)
+
+  .product-category
+    position: relative
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+    &:hover .underlist-product
+      display: inherit
+
+    .underlist-product
+      display: none
+      position: absolute
+      top: 0
+      left: 100%
+      width: -moz-max-content
+      width: max-content
+      max-width: 1020px
+      height: max-content
+      background-color: white
+      -webkit-box-shadow: 1px 1px 5px #777
+      box-shadow: 1px 1px 5px #777
+      border: 1px solid #ccc
+      -ms-flex-wrap: wrap
+      flex-wrap: wrap
+      z-index: 999
+
+      .top-line
+        width: 100%
+        height: 15px
+        background-color: rgb(236, 255, 221)
+        text-indent: -9999px
+
+      .category-container
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        gap: 30px
+        -ms-flex-wrap: wrap
+        flex-wrap: wrap
+        max-width: max-content
+        padding: 10px 15px
+
+        .categories-in-categories
+          h4
+            max-width: 200px
+
+          p
+            margin: 0
+            padding: 0
+
+      h4 a
+        font-weight: bold
+
+/* Container styles
+
+.container
+  max-width: 800px
+  margin: 0 auto
+  padding: 40px
+  border: 1px solid #ddd
+  border-radius: 5px
+
+/* Header styles
+
+.header
+  margin-bottom: 20px
+  text-align: center
+
+  h1
+    font-size: 36px
+    font-weight: bold
+
+/* Main styles
+
+.main
+  display: flex
+  flex-wrap: wrap
+  margin-bottom: 20px
+
+.cart-item
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 20px
+  padding: 20px
+  border: 1px solid white
+  border-radius: 5px
+  width: 100%
+
+  &:last-child
+    margin-bottom: 0
+
+.item-image
+  flex-basis: 25%
+  margin-right: 20px
+
+.glow
+  color: green
+
+p14, p15
+  font-size: 14px
+
+.item-image img
+  max-width: 100%
+  height: auto
+
+.item-details
+  flex-basis: 50%
+
+  h2
+    font-size: 18px
+    font-weight: normal
+    margin-bottom: 10px
+    color: darkblue
+
+  .item-price
+    font-size: 18px
+    margin-bottom: 10px
+
+.item-quantity
+  display: flex
+  align-items: center
+  position: relative
+  left: 200px
+
+.quantity-button
+  background-color: #f9a11b
+  border: none
+  border-radius: 50px
+
+.column .right-column
+  .product-list
+    display: -ms-grid
+    display: grid
+    background-color: white
+    border-radius: 10px
+
+    > h5
+      padding: 10px
+      border-bottom: 1px solid #ddd
+
+    hr
+      width: 90%
+      margin: auto
+
+    .product-container
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+      padding: 5px 5px
+      width: 90%
+      margin: auto
+      gap: 6px
+
+      img
+        width: 100px
+
+      .product-info
+        display: -ms-grid
+        display: grid
+        width: 150px
+
+        .product-name
+          font-size: 15px
+
+        .product-price
+          font-size: 20px
+          color: green
+          font-weight: bold
+
+  .deal-of-the-day
+    display: -ms-grid
+    display: grid
+    background-color: white
+    border-radius: 10px
+
+    > h5
+      padding: 10px
+      border-bottom: 1px solid #ddd
+
+    .product-deal
+      display: -ms-grid
+      display: grid
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      text-align: center
+      width: 90%
+      margin: auto
+
+      img
+        margin: auto auto 30px
+
+      .name
+        font-size: 20px
+        font-family: MONTSERRAT, serif
+
+      .price
+        font-size: 30px
+        font-weight: 900
+        font-family: MONTSERRAT, sans-serif
+        color: rgb(45, 59, 81)
+        font-style: italic
+        text-shadow: 1px 1px #fff, -1px 1px #fff, -1px -1px #fff, 1px -1px #fff, 0 5px 5px #b3b3b3
+        margin-top: 10px
+        margin-bottom: 15px
+
+@media screen and (max-width: 499px)
+  footer
+    margin-top: 80px
+
+footer
+  background-color: #2d3b51
+
+  .footer-content
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    padding: 25px
+    margin-top: 50px
+
+    p
+      color: #ddd
+
+    h6
+      color: white
+
+    .logoFooter
+      width: 400px
+      margin-left: 40px
+
+      img
+        width: 350px
+
+      p
+        margin-top: 20px
+        margin-bottom: 20px
+
+      .SNlinks
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        position: relative
+        top: 100px
+        left: 5px
+        gap: 10px
+        padding-bottom: 50px
+
+        a
+          text-decoration: none
+          background-color: rgb(50, 156, 70)
+          color: white
+          border-radius: 10px
+          font-size: 20px
+          padding: 10px 15px
+
+    .extraInfoFooter
+      margin: auto
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+      max-height: 270px
+      gap: 55px
+
+      .companyInformation
+        display: -ms-grid
+        display: grid
+        gap: 10px
+
+        a
+          text-decoration: none
+          color: #ddd
+
+      .contactFooter
+        max-width: 300px
+
+      .instagramFooter
+        max-width: 300px
+
+        .instaPictures
+          -ms-flex-wrap: wrap
+          flex-wrap: wrap
+          max-width: 400px
+
+          img
+            margin: 3px
+            width: 90px
+            height: 90px
+
+  .extraFooter
+    color: white
+    background-color: #1b2330
+    height: 40px
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+
+@media screen and (max-width: 499px)
+  footer .footer-content
+    display: none
+
+@media screen and (min-width: 500px)
+  footer .footer-content
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+@media screen and (max-width: 670px)
+  footer .footer-content .extraInfoFooter .infoFooter
+    display: none
+
+@media screen and (max-width: 800px)
+  footer .footer-content .extraInfoFooter .companyFooter
+    display: none
+
+@media screen and (max-width: 990px)
+  footer .footer-content .extraInfoFooter .accountFooter
+    display: none
+
+@media screen and (max-width: 1335px)
+  footer .footer-content .extraInfoFooter .contactFooter
+    display: none
+
+@media screen and (max-width: 1600px)
+  footer .footer-content .extraInfoFooter .instagramFooter
+    display: none

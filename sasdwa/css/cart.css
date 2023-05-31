@@ -1,0 +1,169 @@
+.cart-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 40px;
+    width: 300px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-menu{
+    position:absolute;
+    top:380px;
+}
+.dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 40px);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+
+}
+.cart-items {
+    margin-bottom: 10px;
+    position: relative;
+    left:0px;
+    top:12px;
+
+
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-image {
+    margin-right: 10px;
+}
+
+.item-image img {
+    display: block;
+    max-width: 100%;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:green;
+}
+
+.item-price {
+    margin-bottom: 5px;
+    position:relative;
+    left:115px;
+    color:black;
+}
+
+.item-quantity {
+    margin-bottom: 5px;
+}
+
+.item-delete {
+    margin-left: 10px;
+    background-color: transparent;
+    color: rgba(0,0,0,0);
+}
+.product-item .delete-button {
+    visibility: hidden;
+}
+p35{
+    font-size: 15px;
+    position: relative;
+    bottom:35px;
+    left:55px;
+}
+.delete-button {
+    border: none;
+    background: none;
+    color: #ccc;
+    visibility: hidden;
+    display: block;
+    position:relative;
+    left:185px;
+    bottom:55px;
+}
+.bi-trash3 {
+    visibility: visible;
+}
+.delete-button:hover .bi-trash3 {
+    color: red;
+}
+.cart-totals {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: lightgreen;
+}
+
+.cart-subtotal,
+.cart-tax,
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.cart-subtotal span,
+.cart-tax span,
+.cart-total span {
+    font-weight: bold;
+}
+.cart-total{
+    text-align: right;
+    position:relative;
+    left:230px;
+}
+.cart-tax{
+ text-align: right;
+    position:relative;
+  left:230px;
+}
+.total-value{
+    position: relative;
+    right:230px;
+}
+.tax-value{
+    position: relative;
+    right:230px;
+}
+p27{
+   text-align: right;
+    position: relative;
+    left:210px;
+}
+.checkout-button {
+    border: none;
+    background-color: green;
+    color: #fff;
+    position: relative;
+    left:203px;
+
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
+}
+.checkout-button:hover {
+    background-color: darkgreen; /* darker shade of original color */
+    cursor: pointer; /* change cursor to pointer on hover */
+}
